@@ -37,7 +37,7 @@ views:
                 width: 100%
                 mix-blend-mode: lighten
               state_image:
-                'off': /local/ui/transparent.png
+                'off': /local/UI/transparent.png
                 'on': /local/UI/客厅开灯.png
             - type: image
               entity: light.mbulb3_cloud_217376
@@ -48,8 +48,8 @@ views:
                 left: 70.6%
                 width: 7%
               state_image:
-                'off': /local/ui/light_off.png
-                'on': /local/ui/light_on.png
+                'off': /local/UI/light_off.png
+                'on': /local/UI/light_on.png
 
             - type: image
               entity: light.mbulb3_cloud_216068
@@ -62,7 +62,7 @@ views:
                 width: 100%
                 mix-blend-mode: lighten
               state_image:
-                'off': /local/ui/transparent.png
+                'off': /local/UI/transparent.png
                 'on': /local/UI/卧室开灯.png
             - type: image
               entity: light.mbulb3_cloud_216068
@@ -73,8 +73,8 @@ views:
                 left: 39.5%
                 width: 7%
               state_image:
-                'off': /local/ui/light_off.png
-                'on': /local/ui/light_on.png
+                'off': /local/UI/light_off.png
+                'on': /local/UI/light_on.png
 
             - type: image
               entity: light.dengdai
@@ -87,7 +87,7 @@ views:
                 width: 100%
                 mix-blend-mode: lighten
               state_image:
-                'off': /local/ui/transparent.png
+                'off': /local/UI/transparent.png
                 'on': /local/UI/次卧开灯.png
             - type: image
               entity: light.dengdai
@@ -129,7 +129,7 @@ views:
                 action: none
               type: image
             - action: none
-              image: //local/UI/3.楼层/off/3L.png
+              image: /local/UI/3.楼层/off/3L.png
               style:
                 left: 56.6%
                 top: 8.6%
