@@ -1,0 +1,51 @@
+
+# Loads default set of integrations. Do not remove.
+default_config:
+
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+sensor:
+    - platform: time_date
+      display_options:
+        - 'time'
+        - 'date'
+        - 'date_time'
+        - 'date_time_utc'
+        - 'date_time_iso'
+        - 'time_date'
+        - 'time_utc'
+        - 'beat'
+        
+
+
+camera:
+  - platform: xiaomi_cloud_map_extractor
+    host: 192.168.（你的扫地机IP地址）
+    token: 0000000（你的token）
+    username: 111111（你的小米账号）
+    password: 111111（你的小米账号密码）
+    country: "cn"
+    draw: ['all']
+    map_transformation:
+      trim:
+        top: 15
+        bottom: 15
+        left: 0
+        right: 0
+    attributes:
+      - calibration_points  
+      
+
+  
+
+
+
+
+
+
