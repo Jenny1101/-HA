@@ -22,8 +22,11 @@ sensor:
         - 'time_utc'
         - 'beat'
         
+####  主题  ####
+frontend: !include themes.yaml
+template: !include sidebar.yaml
 
-
+####  扫地机  ####
 camera:
   - platform: xiaomi_cloud_map_extractor
     host: 192.168.（你的扫地机IP地址）
